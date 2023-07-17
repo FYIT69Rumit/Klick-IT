@@ -1,0 +1,31 @@
+{
+  "Token": [
+    {
+      "name": "rumit",
+      "email": "rumit",
+      "location": "Andheri",
+      "preference": "Visit",
+      "service": "Dell",
+      "address": "malad",
+      "date": "2023-07-26T18:30:00.000Z",
+      "time": "2:00pm - 3:00pm",
+      "id": 1
+    }
+  ],
+  "CompletedToken": [
+    {
+      "name": "Mansi",
+      "email": "mdarji0704@gmail.com",
+      "location": "Andheri",
+      "preference": "Visit",
+      "service": "Apple",
+      "address": "kjchjkdhkjdhcnjkcnkdjnj",
+      "date": "2023-07-16T18:30:00.000Z",
+      "time": "1:00pm - 2:00pm",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
