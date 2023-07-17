@@ -1,0 +1,46 @@
+<!-- navbar-->
+<header class="header">
+    <!-- Primary Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light py-4 border-bottom border-gray bg-white">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand" routerLink="/home">
+          <button mat-icon-button class="example-icon" class="img">
+            <img ngSrc="/assets/images/logo.png" priority fill>
+          </button>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <ul class="list-inline mb-0 d-none d-lg-block">
+        <li class="list-inline-item mr-3">
+        <div class="d-flex"><i class="far fa-clock h4 text-muted"></i>
+          <div class="ml-2">
+          <h6 class="text-muted text-uppercase mb-0 text-small">Mon - Sat: 10:00AM - 06:00PM  </h6>
+          <p class="small text-gray mb-0">Sunday - CLOSED</p>
+          </div>
+          <!-- <i class="fas fa-user text-muted"></i> -->
+        </div>
+      </li>
+      </ul>
+      </div>
+    </nav>
+    <!-- Secondary Navbar                -->
+    <nav class="navbar navbar-expand-lg navbar-light py-0 shadow-sm bg-white">
+      <div class="container">
+      <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link pl-lg-0" routerLink="/home">Home<span class="sr-only">(current)</span></a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="#">Admin Login </a></li> -->
+        <li class="nav-item"><button class="nav-link" (click)="goto('serv')">Services</button></li>
+        <li class="nav-item"><button class="nav-link" (click)="goto('cont')">Contact</button></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="#">Location</a></li> -->
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><button class="nav-link border-left px-4 bg-primary text-white d-inline-block" (click)="openAdmin()">Admin Login</button></li>
+          <li class="nav-item"><a class="nav-link px-2 d-inline-block" href="#"></a></li>
+        <li class="nav-item"><button class="nav-link border-left px-4 bg-primary text-white d-inline-block" (click)="openDialog()">Book Appointment</button></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    </header>
